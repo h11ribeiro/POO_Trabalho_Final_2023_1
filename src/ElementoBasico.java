@@ -12,13 +12,13 @@ public abstract class ElementoBasico extends JButton {
     private ImageIcon imagem;
     private int lin;
     private int col;
-    protected static boolean facaImp = false;
-    protected static boolean chave = false;
-    protected static boolean papel = false;
-    protected static boolean vidro = false;
-    protected static boolean lixo = false;
-    protected static boolean pano = false;
-    protected static int     barulho = 0;
+    public static boolean facaImp = false;
+    public static boolean chave = false;
+    public static boolean papel = false;
+    public static boolean vidro = false;
+    public static boolean lixo = false;
+    public static boolean pano = false;
+    public static int     barulho = 0;
     //O modificador protected permite que os membros sejam acessados por classes relacionadas  e outras classes do mesmo pacote.
     public void setbarulho(int barulho){
         this.barulho = barulho;
