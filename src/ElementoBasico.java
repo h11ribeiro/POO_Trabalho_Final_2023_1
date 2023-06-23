@@ -19,7 +19,7 @@ public abstract class ElementoBasico extends JButton {
     public static boolean lixo = false;
     public static boolean pano = false;
     public static int     barulho = 0;
-    //O modificador protected permite que os membros sejam acessados por classes relacionadas  e outras classes do mesmo pacote.
+    
     public void setbarulho(int barulho){
         this.barulho = barulho;
     }
